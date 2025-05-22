@@ -49,9 +49,24 @@ input {
     border-left: none;
     width: 90%;
     padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.input-container {
+    position: relative;
+    display: flex;
+    gap: 5px;
+   
+}
+.icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 10px;
+    top: 50%;
 }
 #lien {
-    margin-top: 30px;
+    margin-top: 10px;
     color: rgb(151, 59, 238);
     padding-left: 15px;
 }
