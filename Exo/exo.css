@@ -1,0 +1,27 @@
+.flex-content {
+    display: flex;
+    flex-direction: row;
+}
+.un {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.deux {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.trois {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.item {
+    background-color: rgba(36, 161, 218, 0.683);
+    border-radius: 8px;
+}
