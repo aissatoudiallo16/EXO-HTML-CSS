@@ -1,6 +1,16 @@
 .flex-content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    box-sizing: content-box;
+    background-color: white;
+    height: 800px;
+    padding-top: 10px;
+
+}
+body {
+background-color: rgb(216, 235, 235);
 }
 .un {
     width: 300px;
@@ -20,8 +30,33 @@
 img {
     width: 200px;
     height: 200px;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 100%;
 }
 .item {
-    background-color: rgba(36, 161, 218, 0.683);
+    background-color: rgb(42, 72, 243);
     border-radius: 8px;
+    padding-bottom: 0%;
+    padding-top: 15px;
+    
+}
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+button {
+    background-color: rgb(42, 72, 243);
+    justify-content: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    margin-left: 70px;
+}
+.item1 {
+    background-color: white;
+    border-radius: 12px;
 }

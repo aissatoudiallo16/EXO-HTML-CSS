@@ -3,21 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="src/output.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-  <div class="flex-direction flex-wrap flex justify-between">
-    <section class="w-100 h-100 rounded-lg">
-      <div class="w-50 h-50 rounded-full bg-blue-500"><img src="image/pexels-1.jpg" alt="1"></div>
-      <div class="bg-white">
-        <h2 class="font-bold text-center">David Dell</h2>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veniam porro sunt, officiis dolorem natus nobis culpa magni dolorum corrupti nihil fugit maiores delectus tempora vero asperiores, explicabo odit corporis?</p>
-        <button class="bg-blue-500 w-20 h-20 rounded-lg">View More</button>
-
+    <div class="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-3">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <!--section1-->
+        <!--carte d'utilisateur-->
+          <div class="bg-white rounded-2xl shadow-md overflow-hidden w-72">
+            <!--premiére partie-->
+            <div class="bg-blue-500 p-6 flex flex-col items-center rounded-t-2xl">
+                <img class="w-24 h-24 rounded-full border-4 border-white -mt-10" src="image/pexels-1.jpg" alt="1">
+            </div>
+            <!--deuxiéme partie-->
+            <div class="p-6 text-center">
+              <h2 class="text-lg font-semibold">David Dell</h2>
+              <p class="text-sm text-gray-500 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident enim velit, consequuntur placeat iste itaque excepturi numquam culpa consequatur voluptas aliquid quod recusandae aliquam assumenda ad odit repellendus nisi! Velit!</p>
+              <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 text-sm">View More</button>
+            </div>
+          </div>
+          <!--section2-->
+          <!--carte d'utilsateur-->
+            <div class="bg-white rounded-2xl shadow-md overflow-hidden w-72">
+            <!--premiére partie-->
+            <div class="bg-blue-500 p-6 flex flex-col items-center rounded-t-2xl">
+                <img class="w-24 h-24 rounded-full border-4 border-white -mt-10" src="image/pexels-2.jpg" alt="2">
+            </div>
+            <!--deuxiéme partie-->
+            <div class="p-6 text-center">
+              <h2 class="text-lg font-semibold">Rose Bush</h2>
+              <p class="text-sm text-gray-500 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident enim velit, consequuntur placeat iste itaque excepturi numquam culpa consequatur voluptas aliquid quod recusandae aliquam assumenda ad odit repellendus nisi! Velit!</p>
+              <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 text-sm">View More</button>
+            </div>
+          </div>
+          <!--section3-->
+          <!--carte d'utilisateur-->
+              <div class="bg-white rounded-2xl shadow-md overflow-hidden w-72">
+            <!--premiére partie-->
+            <div class="bg-blue-500 p-6 flex flex-col items-center rounded-t-2xl">
+                <img class="w-24 h-24 rounded-full border-4 border-white -mt-10" src="image/pexels-3.jpg" alt="3">
+            </div>
+            <!--deuxiéme partie-->
+            <div class="p-6 text-center">
+              <h2 class="text-lg font-semibold">Jones Gail</h2>
+              <p class="text-sm text-gray-500 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident enim velit, consequuntur placeat iste itaque excepturi numquam culpa consequatur voluptas aliquid quod recusandae aliquam assumenda ad odit repellendus nisi! Velit!</p>
+              <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 text-sm">View More</button>
+            </div>
+          </div>
       </div>
 
-    </section>
-
-  </div>
+    </div>
 </body>
 </html>
